@@ -1,0 +1,17 @@
+*{
+    margin: 100px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 80%;
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    cursor: pointer;
+    background-image: url('andronike/andronike-01.jpg');  /* Set your background image here */
+    background-size: cover;  /* Ensure the image covers the entire background */
+    background-position: center;  /* Center the image */
+    background-attachment: fixed;  /* Keep the background fixed while scrolling */
+}
