@@ -15,3 +15,10 @@ body, html {
     background-position: center;  /* Center the image */
     background-attachment: fixed;  /* Keep the background fixed while scrolling */
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; /* space between buttons */
+}

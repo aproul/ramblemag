@@ -1,14 +1,15 @@
 const pngs = [
-    'homepage/andronike-button.png',
-    'homepage/astrid-button.png',
-    'homepage/susannah-button.png',
-    'homepage/about-button.png'
+    'homepage/merch-button.png',
+    'homepage/about-button.png',
+    'homepage/zine1.png',
+    'homepage/zine2.png'
 ];
 
 const links = [
-    'andronike.html',
-    'astrid.html',
-    'susannah.html'
+    'merch.html',
+    'about.html',
+    'zine1.html',
+    'zine2.html'
 ];
 
 pngs.forEach((img, i) => {

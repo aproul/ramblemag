@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    cursor: pointer;
+    background-image: url('zine2-background.JPG');  /* Set your background image here */
+    background-size: cover;  /* Ensure the image covers the entire background */
+    background-position: center;  /* Center the image */
+    background-attachment: fixed;  /* Keep the background fixed while scrolling */
+}
+
+.nav-button{
+    position: absolute;
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.nav-button:hover{
+    transform: scale(1.1);
+}
+
+
+.nav-button:nth-of-type(1){
+    top: 40%;
+    left: 20%;
+}
+
+.nav-button:nth-of-type(2){
+    top: 60%;
+    left: 45%;
+}
+
+.nav-button:nth-of-type(3){
+    top: 50%;
+    left: 70%;
+}
+
+.nav-button:nth-of-type(4){
+    top: 10%;
+    left: 10%;
+}

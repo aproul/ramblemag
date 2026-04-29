@@ -1,0 +1,40 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    background-color: #000000;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    cursor: pointer;
+    background-image: url('MERCH/merch-background.jpg');  /* Set your background image here */
+    background-size: cover;  /* Ensure the image covers the entire background */
+    background-position: center;  /* Center the image */
+    background-attachment: fixed;  /* Keep the background fixed while scrolling */
+}
+
+.nav-button{
+    position: absolute;
+    width: 600px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.nav-button:hover{
+    transform: scale(1.1);
+}
+
+
+.nav-button:nth-of-type(1){ /*tee*/
+    top: 30%;
+    left: 15%;
+}
+
+.nav-button:nth-of-type(2){ /*mag*/
+    top: 20%;
+    left: 55%;
+}
+
